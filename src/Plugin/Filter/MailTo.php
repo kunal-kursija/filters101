@@ -14,7 +14,7 @@ use Drupal\Core\Form\FormStateInterface;
  * @Filter(
  *   id = "mail_to",
  *   title = @Translation("Convert all Email-Addresses to MailTo links."),
- *   type = Drupal\filter\Plugin\FilterInterface::TYPE_MARKUP_LANGUAGE,
+ *   type = Drupal\filter\Plugin\FilterInterface::TYPE_TRANSFORM_IRREVERSIBLE,
  *   settings = {
  *     "emphasize_mailto" = TRUE
  *   },
