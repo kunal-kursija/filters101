@@ -1,0 +1,8 @@
+name: Filters One-O-One
+description: 'Module demonstrating the Filter API of Drupal'
+type: module
+core_version_requirement: ^8 || ^9
+package: Custom
+dependencies:
+  - drupal:filter
+configure: filter.admin_overview
